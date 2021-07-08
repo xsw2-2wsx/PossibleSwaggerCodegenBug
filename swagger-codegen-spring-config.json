@@ -1,0 +1,8 @@
+{
+  "modelPackage": "com.example",
+  "apiPackage": "com.example.controllers",
+  "dateLibrary": "java8",
+  "java8": true,
+  "interfaceOnly": true,
+  "useBeanValidation": true
+}

@@ -1,0 +1,14 @@
+openapi: 3.0.4
+info:
+  title: Test
+  description: Test project
+  version: 0.1.0
+servers:
+  - url: http://localhost:8080
+    description: development server
+
+components:
+
+paths:
+  /test/{testParam}:
+    $ref: "path.yaml"

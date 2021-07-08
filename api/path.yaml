@@ -1,0 +1,14 @@
+summary: Operation on configuration group
+get:
+  responses:
+    '200':
+      description: "OK"
+    default:
+      description: "ERROR"
+
+parameters:
+  - name: testParam
+    in: path
+    required: true
+    schema:
+      type: string
